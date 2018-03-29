@@ -12,25 +12,25 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/mainTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/mainButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/mainButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button" />
 
         <fragment
-            android:id="@+id/fragment"
+            android:id="@+id/mainFragment"
             android:name="com.example.kokoroguruma.testfragment1.Main1Fragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
